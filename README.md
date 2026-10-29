@@ -4,7 +4,7 @@ React maze puzzle built with Vite. It preserves the hand-mapped maze pattern and
 
 ## Interface reference
 
-![Bunny Maze game interface](docs/maze-dashboard-reference.png)
+![Bunny Maze game interface](images/Bunny-Maze.png)
 
 ## Local development
 
