@@ -2,6 +2,10 @@
 
 React maze puzzle built with Vite. It preserves the hand-mapped maze pattern and its alternate paths. Breadth-first search verifies the minimum hop count and enumerates the shortest complete routes. Jev chooses among those routes; the dashboard shows its move sequence and response metrics.
 
+## Interface reference
+
+![Bunny Maze game interface](images/Bunny-Maze.png)
+
 ## Local development
 
 Requires Node.js 20 or newer.

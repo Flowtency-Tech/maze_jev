@@ -1,0 +1,103 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Production and framework build output
+dist/
+build/
+out/
+.vercel/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.astro/
+coverage/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.*.sample
+!.env.template
+!.env.*.template
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and runtime files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.pid.lock
+*.seed
+pids/
+*.stackdump
+
+# Tool and bundler caches
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.sass-cache/
+.nyc_output/
+*.sw?
+
+# Test and browser artifacts
+playwright-report/
+test-results/
+blob-report/
+cypress/videos/
+cypress/screenshots/
+
+# Editor and IDE settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Local deployment and cloud tool state
+.netlify/
+.firebase/
+.serverless/
+.wrangler/
